@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Desarrollador web y tanto en Backend como en Frontend. Bienvenid@s a mi portafolio">
+    <title>Portafolio de desarrollador web</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="ir-arriba/fonts.css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/subir.js"></script>
+</head>
+<body>
+	<span class="ir-arriba icon-arrow-up"></span>
+
+    <!-- Esta es la cabecera de la pagina web -->
+    <header class="header">
+        <div class="header-wrapper"><!-- Comienzo de la caja que contiene la cabecera -->
+            <div class="header-logo">
+                <img src="img/logo.png" title="Pantalla de inicio" alt="Logo de la web" height="60" />
+            </div>
+
+            <nav class="header-menu"><!-- Comienzo de la etiqueta de menu -->
+                <ul class="header-menu-wrapper"><!-- Comienzo de las etiquetas oldenadas -->
+
+                    <li class="header-menu-item">
+                        <a href="#aboutme" class="header-menu-link">Sobre mi</a>
+                    </li>
+
+                    <li class="header-menu-item">
+                            <a href="#skils" class="header-menu-link">Habilidades</a>
+                    </li>
+
+                    <li class="header-menu-item">
+                            <a href="#works" class="header-menu-link">Portafolio</a>
+                    </li>
+
+                    <li class="header-menu-item">
+                            <a href="#contact" class="header-menu-link">Contacto</a>
+                    </li>
+                </ul><!-- Fin de las listas oldenadas -->
+            </nav><!-- Fin de la etiqueta de menu -->
+        </div><!-- Fin de la caja que contine la cabecera -->
+    </header><!-- Fin de la cabecera de la pagina -->
+
+    <!-- Esta es la sesion para la portada 
+         El fondo sera agregado en CSS y no en HTML
+    -->
+    <section class="cover">
+        <div class="cover-wrapper">
+            <div class="cover-photo-container">
+                <img src="img/braylin.jpg" class="cover-photo" title="Braylin Ivan Payano" alt="Braylin Ivan Payano" height="200" />
+            </div>
+            <div class="cover-text">
+                <h2 class="cover-title">Braylin Ivan Payano</h2>
+                <h1 class="cover-sub-title">Desarrollador grafico y Desarrollador web</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        Esta es la informacion para la seccion "Sobre mi" 
+    -->
+
+    <section id="aboutme" class="aboutme">
+        <header>
+            <h1 class="title-underline">
+                <span>Sobre mi</span>
+            </h1>
+        </header>
+        <div class="cover-description">
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum explicabo, consequuntur 
+                suscipit dolor rem corporis magni. Debitis magni velit eaque quos perspiciatis magnam 
+                similique, cum beatae aut sapiente. Expedita, delectus! Lorem ipsum dolor sit amet
+                consectetur, <span>adipisicing elit</span>. Tempore excepturi sed autem nihil illo laborum aliquid, 
+                rerum explicabo reprehenderit ad magnam voluptatum consectetur molestias porro quasi! 
+                Tempora distinctio eaque numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum explicabo, consequuntur 
+                suscipit dolor rem corporis magni. Debitis magni velit eaque quos perspiciatis magnam 
+                similique, cum beatae aut sapiente. Expedita, delectus! Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Tempore excepturi sed autem nihil illo laborum aliquid, 
+                rerum explicabo reprehenderit ad magnam voluptatum consectetur molestias porro quasi! 
+                Tempora distinctio eaque numquam.
+                </p>
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum explicabo, consequuntur 
+                suscipit dolor rem corporis magni. Debitis magni velit eaque quos perspiciatis magnam 
+                similique, cum beatae aut sapiente. Expedita, delectus! Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Tempore excepturi sed autem nihil illo laborum aliquid, 
+                rerum explicabo reprehenderit ad magnam voluptatum consectetur molestias porro quasi! 
+                Tempora distinctio eaque numquam.
+                </p>
+            <div class="text-center">
+                <a href="mailto:ibanpallano1997@gmail.com" class="btn-blue">Contactame</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        Esta es la seccion de habilidades
+    -->
+
+    <section id="skils" class="skils">
+        <header>
+            <h1 class="title-underline">
+                <span>Habilidades</span>
+            </h1>
+        </header>
+        <ul class="skills-wrapper">
+
+            <!-- Barra de porcentaje de HTML5 -->
+            <li class="skills-item"><!-- Barras de porcentajes con todos y nombre -->
+                <div class="skills-text">
+                    <span class="skills-name">
+                        HTML5
+                    </span>
+                    <span class="skills-score">
+                        90%
+                    </span>
+                </div>
+                <div class="skills-bar">
+                    <div class="skills-bar-fulling"
+                    style="width: 90%;">
+
+                    </div>
+                </div>
+            </li><!-- Fin barra de porcentaje con todo y nombre -->
+
+            <!-- Barra de porcentaje de CSS3 -->
+            <li class="skills-item"><!-- Barras de porcentajes con todos y nombre -->
+                <div class="skills-text">
+                    <span class="skills-name">
+                        CSS3
+                    </span>
+                    <span class="skills-score">
+                        70%
+                    </span>
+                </div>
+                <div class="skills-bar">
+                    <div class="skills-bar-fulling"
+                    style="width: 70%;">
+
+                    </div>
+                </div>
+            </li><!-- Fin barra de porcentaje con todo y nombre -->
+
+            <!-- Barra de porcentaje de JavaScript -->
+            <li class="skills-item"><!-- Barras de porcentajes con todos y nombre -->
+                <div class="skills-text">
+                    <span class="skills-name">
+                        JavaScript
+                    </span>
+                    <span class="skills-score">
+                        50%
+                    </span>
+                </div>
+                <div class="skills-bar">
+                    <div class="skills-bar-fulling"
+                    style="width: 50%;"> 
+
+                    </div>
+                </div>
+            </li><!-- Fin barra de porcentaje con todo y nombre -->
+
+            <!-- Barra de porcentaje de PHP -->
+            <li class="skills-item"><!-- Barras de porcentajes con todos y nombre -->
+                <div class="skills-text">
+                    <span class="skills-name">
+                        PHP
+                    </span>
+                    <span class="skills-score">
+                        60%
+                    </span>
+                </div>
+                <div class="skills-bar">
+                    <div class="skills-bar-fulling"
+                    style="width: 60%;">
+
+                    </div>
+                </div>
+            </li><!-- Fin barra de porcentaje con todo y nombre -->
+
+            <!-- Barra de porcentaje de MYSQLI -->
+            <li class="skills-item"><!-- Barras de porcentajes con todos y nombre -->
+                <div class="skills-text">
+                    <span class="skills-name">
+                        MYSQLI
+                    </span>
+                    <span class="skills-score">
+                        77%
+                    </span>
+                </div>
+                <div class="skills-bar">
+                    <div class="skills-bar-fulling"
+                    style="width: 77%;">
+
+                    </div>
+                </div>
+            </li><!-- Fin barra de porcentaje con todo y nombre -->
+
+            <!-- Barra de porcentaje de Laravel -->
+            <li class="skills-item"><!-- Barras de porcentajes con todos y nombre -->
+                <div class="skills-text">
+                    <span class="skills-name">
+                        Laravel
+                    </span>
+                    <span class="skills-score">
+                        78%
+                    </span>
+                </div>
+                <div class="skills-bar">
+                    <div class="skills-bar-fulling"
+                    style="width: 78%;">
+
+                    </div>
+                </div>
+            </li><!-- Fin barra de porcentaje con todo y nombre -->
+
+        </ul>
+    </section>
+
+    <!-- 
+        Esta es la seccion de trabajos realizados
+    -->
+
+    <section id="works" class="works">
+        <header>
+            <h1 class="title-underline">
+                <span>portafolio</span>
+            </h1>
+        </header>
+        <div class="works-wrapper">
+
+            <article class="works-item"><!-- Primer articulo de trabajos realizados -->
+                <div class="works-item-img-container">
+                    <img src="img/work.PNG" class="works-item-img" title="Trabajos Realizados" alt="Trabajos Realizados 1">
+                </div>
+                <div class="works-item-description">
+                    <header>
+                        <h2 class="works-item-title">
+                            Desarrollo web 1
+                        </h2>
+                    </header>
+                    <p class="works-item-client">
+                        Para <a href="https://www.google.com" target="_blank">nuestro cliente</a>
+                    </p>
+                    <div class="text-center">
+                        <a href="https://www.google.com" class="btn-blue" target="_blank">Visitar web</a>
+                    </div>
+                </div>
+            </article><!-- Fin de primer articulo de trabajos realizados -->
+
+            <article class="works-item"><!-- Comienzo de segundo articulo de trabajos realizados -->
+                    <div class="works-item-img-container">
+                        <img src="img/work.PNG" class="works-item-img" title="Trabajos Realizados" alt="Trabajos Realizados 2">
+                    </div>
+                    <div class="works-item-description">
+                        <header>
+                            <h2 class="works-item-title">
+                                Desarrollo web 2
+                            </h2>
+                        </header>
+                        <p class="works-item-client">
+                            Para <a href="https://www.google.com" target="_blank">nuestro cliente</a>
+                        </p>
+                        <div class="text-center">
+                            <a href="https://www.google.com" class="btn-blue" target="_blank">Visitar web</a>
+                        </div>
+                    </div>
+            </article><!-- Fin de segundo articulo de trabajos realizados -->
+
+            <article class="works-item"><!-- Comienzo de tercer articulo de trabajos realizados -->
+                        <div class="works-item-img-container">
+                            <img src="img/work.PNG" class="works-item-img" title="Trabajos Realizados" alt="Trabajos Realizados 3">
+                        </div>
+                        <div class="works-item-description">
+                            <header>
+                                <h2 class="works-item-title">
+                                    Desarrollo web 3
+                                </h2>
+                            </header>
+                            <p class="works-item-client">
+                                Para <a href="https://www.google.com" target="_blank">nuestro cliente</a>
+                            </p>
+                            <div class="text-center">
+                                <a href="https://www.google.com" class="btn-blue" target="_blank">Visitar web</a>
+                            </div>
+                        </div>
+            </article><!-- Fin de tercer articulo de trabajos realizados -->
+        </div>
+    </section>
+    <!--
+        Esta es la seccion de contacto
+    -->
+
+    <section id="contact" class="contact">
+        <header>
+            <h1 class="title-underline">
+                <span>Contactame</span>
+            </h1>
+        </header>
+        <form action="/message.php" method="POST" class="contact-form">
+            <div class="contact-row">
+
+                <div class="contact-column left">
+                    <div>
+                        <label for="useremail">Correo</label>
+                    </div>
+                    <div>
+                        <input type="email" required class="contact-input-text" placeholder="Correo electr&oacute;nico" name="useremail" id="useremail">
+                    </div>
+                </div>
+
+                <div class="contact-column right">
+                    <div>
+                        <label for="username">Nombre</label>
+                    </div>
+                    <div>
+                        <input type="text" required class="contact-input-text" placeholder="Nombre" 
+                        name="username" id="username">
+                    </div>
+                </div>
+
+            </div>
+            <div class="contact-row">
+                <div class="contact-column --width100">
+                    <div>
+                        <label for="usermessage">Mensaje</label>
+                    </div>
+                    <textarea name="usermessage" required placeholder="Escribe un mensaje" id="usermessage" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <input class="btn-blue" type="submit" value="Enviar" />
+            </div>
+        </form>
+    </section>
+
+    <!--
+        Esta es la seccion del footer
+    -->
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <p class="footer-text">
+                Hecho con <span class="icon">&#x2764;</span> por <a class="link" href="https://www.facebook.com/iban.pallano.3" target="_blank">@braylinivan</a>
+            </p>
+            <p>
+                &copy; www.braylin.com
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
